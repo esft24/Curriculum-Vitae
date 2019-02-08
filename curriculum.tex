@@ -1,0 +1,87 @@
+\documentclass[11pt,a4paper,sans,unicode]{moderncv}
+\moderncvstyle{casual}                  
+\moderncvcolor{blue}                             
+\usepackage[utf8]{inputenc}                   
+\usepackage[unicode]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+ 
+\urlstyle{same}
+\usepackage[scale=0.75]{geometry}
+\usepackage{import}
+\name{Erick}{Flejan}
+\title{Curriculum Vitae}                  
+\address{Parroquia Santa Rosalía}{Caracas, Venezuela.}{}
+\phone[mobile]{+58 426-316-5212}                   
+\email{erickflejan67@gmail.com}                       
+\social[github]{esft24}
+\photo[52pt][0.2pt]{picturillo}                 
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+\small{Estudiante de 5to año de Ingeniería de la Computación, actualmente cursando el treceavo trimestre en la Universidad Simón Bolívar. Apasionado con los desafíos que involucran algoritmos y codificación. Con experiencia realizando proyectos de desarrollo de software y sistemas utilizando metodologías ágiles y documentadas de desarrollo.}
+
+\section{Educación}
+\begin{itemize}
+\vspace{2pt}
+\item \textbf{Universidad Simón Bolívar:} \emph{2012 - Actualidad} \\ Actualmente cursando la carrera de Ingeniería en Computación. \\ \emph{Promedio: 3.959/5} 
+\vspace{2pt}
+\end{itemize}
+
+\section{Habilidades Técnicas}
+
+\vspace{2pt}
+
+\begin{itemize}
+
+\item \textbf{Lenguajes de Programación:} Competente en: Haskell, Scala, Ruby, C, Python, Matlab, \LaTeX, JavaScript. \\ También habilidades básicas con: Assembler/MIPS, Prolog, R, Bash.
+
+\vspace{2pt}
+
+\item \textbf{Frameworks y Desarrollo Web:} Competente en: Framework Django, Framework Web2py, conocimientos en HTML5 para desarrollo de front-end junto con CSS, Bootstrap4 y JavaScript como complemento.  
+
+\vspace{2pt}
+
+\item \textbf{Manejo de Bases de Datos y Otras Herramientas:} Competente en: PostgreSQL, SQLite. \\ También habilidades básicas con: Bases de Datos No-SQL como Jena. Entorno de ejecución Nodejs.
+
+\end{itemize}
+
+\section{Actividades Extra-Curriculares y Certificaciones}
+
+\begin{itemize}
+\item{Certificación de conocimiento en principios básicos de programación funcional y diseño funcional-reactivo. \href{https://www.coursera.org/account/accomplishments/certificate/2MHZ3UG58EHF}{Certificación puede ser verificada aquí.}. \emph{2018}
+}
+\item{Certificación de finalización del Programa de Técnicas de Lectura Integral y Selectiva constado por Técnicas Americanas de Estudio. \emph{2007}}
+\end{itemize}
+
+\section{Proyectos}
+
+\begin{itemize}
+
+\item{\textbf{Avanzómetro}. Aplicación web con fines de visualización estadística de las notas de los estudiantes de la Universidad Simón Bolívar. Realizada en conjunto en el equipo de desarrollo \emph{Athenas Development} utilizando Django como framework y Scrum como metodología de desarrollo. Realizado para el curso de \emph{Ingeniería de Software I}.}
+
+\item{\textbf{Módulo del Sistema de Gestión Integral de la Unidad de Laboratorios (SIGULAB)}. Realizado en conjunto en el equipo de desarrollo \emph{Octopus Technologies} utilizando Web2py como framework. Realizado para el curso de \emph{Sistemas de Información I}.}
+
+\item{\textbf{CodeyBoy (Lenguaje de Programación)}. Lenguaje de programación fuertemente tipado de uso general. Realizado para el curso de \emph{Lenguajes de Programación 2 y 3}}
+
+\item{\textbf{Sistema MECE} \emph{Mecanismo para el Empoderamiento de Competencias Educativas}. Sistema de admisión al estudio en la Universidad Simón Bolívar,
+diseñado para que el participante se haga consciente de su propia formación
+con el fin de que pueda fortalecer sus competencias educativas.}
+
+\end{itemize}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}            
+\end{document}
